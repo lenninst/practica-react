@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "canter";
+  src: url("../font/Canter-Bold.otf");
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../font/JetBrainsMono-Bold.ttf");
+}
+
+@font-face {
+  font-family: "JetBrains Mono Light";
+  src: url("../font/JetBrainsMono-Light.ttf");
+}
+
+* {
+  font-family: "JetBrains Mono Light", "Lucida Console", serif;
+}
+.contenedor-texto {
+  display: flex;
+  padding: 1rem;
+}
+
+.titulo {
+  position: relative;
+  color: white;
+  letter-spacing: 1px;
+  padding: 12% 0;
+
+}
+
+.subtitulo {
+  margin: 17% 0;
+  min-width: 9rem;
+  position: relative;
+  top: 120px;
+  left: 30px;
+  letter-spacing: normal;
+  justify-items: left;
+}
+
+.description {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #aaa1a2;
+
+
+}
+
+

@@ -1,0 +1,12 @@
+
+.imagen-fondo {
+  background-image: url("../img/enerero.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  perspective: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+}
